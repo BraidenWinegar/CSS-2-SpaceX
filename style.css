@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    height:  150vh;
+    box-sizing: border-box;
+}
+
+
+
+.spacer{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    background-color: #0b0b0b;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.head-container{
+    height: 75px;
+    width:  975px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.link-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.linker{
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+}
+
+.lesser-linker{
+    font-size: 12px;
+    color: #8B939B;
+    margin-right: 10px;
+}
+
+#picture-container{
+    background-image: url("https://www.spacex.com/sites/spacex/files/amos17_v2.jpg");
+    background-size: 1520px 680px;
+    width: 100%;
+    height: 603px;
+    object-fit: cover;
+    background-color:darkslategray;
+
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: flex-end; */
+}
+
+
+.slate{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+}
+
+.slate > .container{
+    opacity: 1;
+    
+}
+
+.slate-div{
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: rgb(33,39,43);
+    border: solid 1px black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    color: #ffffff;
+    font-size: 12px;
+
+    display: flex;
+    align-items: baseline;
+}
+
+.slate-link:hover{
+    background-color: rgb(11, 11, 11, .75);
+    border-top:  rgb(11, 11, 11, .75);
+}
+
+
+.clear{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(11, 11, 11, .75);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container{
+    color: #ffffff;
+    width: 975px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1{ 
+    opacity: 1;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+button{
+    opacity: 1;
+    background-color: #ffffff;
+    margin-right: 50px;
+    font-size: 11px;
+    width: 180px;
+    height: 36px;
+    border-radius: 4px;
+}
+    
+#bottom-title{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#bottom-title > h3{
+    font-size: 18px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row-box{
+    margin: 15px;
+    width: 309px;
+    height: 275px;
+    padding: 20px;
+    padding-right: 0;
+    border-radius: 3px;
+    /* background: lime; */
+    /* border: 1px solid rgb(153, 153, 153); */
+    box-shadow: 0px 0px 2px 2px rgba(22, 22, 22, 0.3);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+.row-box > div {
+    margin-top: 15px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.row-img{
+    width: 256x;
+    height: 116px; 
+}
+
+.learn-more{
+    font-size: 12px;
+    color: #3569a4;
+}
+
+.third-img{
+    margin-right: 50px
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
